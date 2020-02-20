@@ -1,0 +1,183 @@
+body{
+    background-color:   #F2F2F2;
+    
+}
+/*.menu{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+#menu ul{
+    list-style-type: none;
+    margin-top: 1em;
+    
+}
+#menu ul li{
+    display: inline;
+}
+header ul li a{
+    list-style: none;
+    color: black;
+    font-size: 1em;
+    padding-right: 0.5em;
+} */
+/* 
+/*sticky header position*/
+/* .sticky.is-sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: brown;
+} */ 
+
+.nav-trans{
+    background-color: transparent;
+}
+.nav-dark{
+    background-color: brown;
+}
+nav {
+  min-height: 85px;
+}
+
+#carousel-main{
+    border-bottom: brown solid 0.5em;
+}
+.carousel-item{
+    height: 100vh;
+}
+
+/* .img-1{
+    overflow: hidden;
+    max-width: 100%;
+    float: right;
+} */
+/* .container{
+    margin-left: 0em;
+    margin-right: 0em;
+} */
+#r1{
+    background-image: url('lko1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+#content1{
+    
+    margin-right: 4em;
+    padding-top: 1em;
+}
+
+#content1 p{
+    background-color: rgba(255, 255, 255, 0.616);
+    color: black;
+    width: 100%;
+}
+
+#content2{
+    padding-top: 1em;
+}
+
+#content2 ul{
+    background-color: rgba(255, 255, 255, 0.616);
+    color: black;
+    width: 100%;
+}
+
+#r2{
+    margin-top: 2em;
+}
+
+#r2 p{
+    color: black;
+    font-style: oblique;
+}
+
+
+.foot{
+    background-color: brown;
+}
+
+#img1{
+    max-width: 100%;
+    margin-top: 1em;
+}
+#img2{
+    max-width: 100%;
+    margin-top: 1em;
+}
+
+/* @media only screen and (max-width : 824px){
+
+ .navbar{
+     position: fixed !important;
+     top: 0 !important;
+     background-color: brown !important;
+ }
+   */
+} 
+ 
+/* @media only screen
+and (max-width : 480px){
+
+.navbar{
+    position: fixed;
+    top:0;
+}
+
+}  */
+
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
